@@ -47,6 +47,11 @@ describe('app', function() {
         beforeEach(function() {
             var el = document.getElementById('stage');
             el.innerHTML = ['<div id="deviceready">',
+                            '    <p class="event listening">Var 1</p>',
+                            '    <p class="event listening">Var 2</p>',
+                            '    <p class="event listening">Var 3</p>',
+                            '    <p class="event listening">Var 4</p>',
+                            '    <p class="event listening">Var 5</p>',
                             '    <p class="event listening">Listening</p>',
                             '    <p class="event received">Received</p>',
                             '</div>'].join('\n');
